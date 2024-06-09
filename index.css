@@ -47,3 +47,62 @@
     /* You can add or modify styles here for extra large screens */
   }
   
+  .image1{
+    background-image: url('pexels-expect-best-79873-323780 (1).jpg');
+    background-attachment: relative; /* Keep image fixed */
+    background-size: 100% auto;  /* Scale to width, let height adjust */
+    background-position: center top; /* Start from the top center */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding-top: 100px; 
+    padding-bottom: 200px;
+    height: auto;
+    min-height: 1050px;         /* Add top padding (adjust as needed) */
+  
+    /* Other styles for your header (e.g., text color, etc.) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;              /* Make header a positioning context */
+    display: flex;                   /* Use Flexbox for vertical alignment */
+    flex-direction: column;          /* Align items vertically */
+    justify-content: flex-end;  
+    border: 4px solid #f8f4f4;  /* Optional border for visualization */ 
+  }
+
+  .image2{
+    background-image: url('pexels-anete-lusina-4792483.jpg');
+    background-attachment: relative; /* Keep image fixed */
+    background-size: 100% auto;  /* Scale to width, let height adjust */
+    background-position: center top; /* Start from the top center */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    height: auto;
+    min-height: 800px;         /* Add top padding (adjust as needed) */
+  
+    /* Other styles for your header (e.g., text color, etc.) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;              /* Make header a positioning context */
+    display: flex;                   /* Use Flexbox for vertical alignment */
+    flex-direction: column;          /* Align items vertically */
+    justify-content: flex-end;  
+    border: 4px solid #f8f4f4;  /* Optional border for visualization */ 
+  }
+
+  .image3{
+    background-image: url('pexels-mikael-blomkvist-8961297.jpg');
+    background-attachment: relative; /* Keep image fixed */
+    background-size: 100% auto;  /* Scale to width, let height adjust */
+    background-position: center top; /* Start from the top center */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding-top: 100px; 
+    padding-bottom: 200px;
+    height: auto;
+    min-height: 1000px;         /* Add top padding (adjust as needed) */
+  
+    /* Other styles for your header (e.g., text color, etc.) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;              /* Make header a positioning context */
+    display: flex;                   /* Use Flexbox for vertical alignment */
+    flex-direction: column;          /* Align items vertically */
+    justify-content: flex-end;  
+    border: 4px solid #f8f4f4;  /* Optional border for visualization */ 
+  }

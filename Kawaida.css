@@ -74,9 +74,9 @@
     border: 5px solid #f8f4f4;  /* Optional border for visualization */
 }
 
-.section1 { background-color: white;  height: 250px; }  /* Light blue background */
-.section2 { background-color: lightgrey;  height: 400px; } /* Light green background */
-.section3 { background-color: white;  height: 300px; } /* Light yellow background */
-.section4 { background-color: lightskyblue;  height: 225px; }  /* Light coral background */
+.section1 { background-color: white;  height: 150px; }  /* Light blue background */
+.section2 { background-color: lightgrey;  height: 950px; } /* Light green background */
+.section3 { background-color: white;  height: 900px; } /* Light yellow background */
+.section4 { background-color: lightskyblue;  height: 40px; }  /* Light coral background */
 
   
