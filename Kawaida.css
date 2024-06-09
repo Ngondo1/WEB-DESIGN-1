@@ -30,7 +30,7 @@
 
 .header-text {
     position: absolute;
-    bottom: 5px;       /* Position at the bottom with some spacing */
+    bottom: 10px;       /* Position at the bottom with some spacing */
     left: 50%;           /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     margin: 0 auto;
