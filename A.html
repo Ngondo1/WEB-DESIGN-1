@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Kawaida.css">
+    <link rel="stylesheet" href="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Kawaida.js" defer></script>
+    <style>
+   @media (max-width: 992px) { /* Adjust breakpoint as needed */
+
+.mobile-nav {
+  position: fixed;
+  bottom: -100%; /* Initially hide below the screen */
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: #fff; /* Or your desired background color */
+  transition: bottom 0.5s ease-in-out; /* Smooth transition */
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.mobile-nav[data-visible="true"] {
+  bottom: 0;   /* Show the navbar when data-visible is true */
+}
+
+/* Optional: Style the close button */
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Optional: Style the offcanvas content */
+.offcanvas-body {
+  padding: 20px; /* Add padding to the content */
+}
+}
+
+    </style>
+
+    <title></title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><strong><em>B&P Design Studio<br></em></strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav"> <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="A.html"><em><strong>Home</strong></em></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="B.html"><strong><em>Projects</em></strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="C.html"><strong><em>Contact</em></strong></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

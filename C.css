@@ -1,0 +1,28 @@
+.body, html {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;          /* Enable Flexbox for layout */
+  }
+  
+  .left-half, .right-half {
+    width: 50%;              /* Each half takes 50% of the width */
+  }
+  
+  .left-half img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;  
+  }
+  
+  /* Adjusted styles for the right half */
+  .right-half {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;             /* Enable Flexbox for right-half */
+    flex-direction: column;    /* Align content vertically */
+    justify-content: flex-start; /* Align content to the top */
+  }
+  
