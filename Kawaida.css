@@ -78,5 +78,33 @@
 .section4 { background-color: lightskyblue;  height: 225px; }  /* Light coral background */
 
   
-    
+@media (max-width: 992px) { /* Adjust breakpoint as needed */
+
+    .mobile-nav {
+      position: fixed;
+      bottom: -100%; /* Initially hide below the screen */
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      background-color: #fff; /* Or your desired background color */
+      transition: bottom 0.5s ease-in-out; /* Smooth transition */
+      z-index: 1000; /* Ensure the navbar is above other content */
+    }
+  
+    .mobile-nav[data-visible="true"] {
+      bottom: 0;   /* Show the navbar when data-visible is true */
+    }
+  
+    /* Optional: Style the close button */
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  
+    /* Optional: Style the offcanvas content */
+    .offcanvas-body {
+      padding: 20px; /* Add padding to the content */
+    }
+  } 
   

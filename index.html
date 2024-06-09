@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="Kawaida.css">
     <link rel="stylesheet" href="#">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
- 
+    <script src="Kawaida.js" defer></script>
 
     <title></title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mobile nav" data-visible="false">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><strong><em>B&P Design Studio<br>Flavian Mwangi Kimemia</em></strong></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="navbarOffcanvasLgLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#"><em><strong>Home</strong></em></a>
@@ -35,9 +40,7 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
   </div>
-
-  
-
+  </div>
 </div>
 </nav>
 
@@ -59,7 +62,7 @@
   padding-top: 100px; 
   padding-bottom: 200px;
   height: auto;
-  min-height: 1000px;         /* Add top padding (adjust as needed) */
+  min-height: 800px;         /* Add top padding (adjust as needed) */
 
   /* Other styles for your header (e.g., text color, etc.) */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
