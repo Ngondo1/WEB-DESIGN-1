@@ -3,14 +3,15 @@
 #time-display {
     /* Styling */
     font-size: 20px; /* Adjust font size as needed */
-    color: rgb(5, 3, 12);     /* Set text color to white */
+    color: rgb(174, 170, 190);     /* Set text color to white */
     background-color: rgba(42, 8, 211, 0.979); /* Semi-transparent black background */
     padding: 5px;   /* Add padding all around */
 
     /* Positioning and animation */
     position: relative;    /* Use relative positioning */
     width: 100%;
-    height: 70px;            /* Still make it full width */
+    text-align: center;  
+    animation: moveLeftToRight 10s linear infinite; 
     
       
 
@@ -36,7 +37,7 @@
     transform: translateX(-50%); /* Adjust for centering */
     margin: 0 auto;
     text-align: center;
-     padding-bottom: 15px;     /* Add padding for better readability */
+     padding-bottom: 25px;     /* Add padding for better readability */
     color: white;         /* White text for contrast */
     font-size: 26px;     /* Larger font size (adjust as needed) */
     
