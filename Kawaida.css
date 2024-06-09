@@ -10,7 +10,7 @@
     /* Positioning and animation */
     position: relative;    /* Use relative positioning */
     width: 100%;
-    height: 100px;            /* Still make it full width */
+    height: 70px;            /* Still make it full width */
     
       
 
@@ -36,7 +36,7 @@
     transform: translateX(-50%); /* Adjust for centering */
     margin: 0 auto;
     text-align: center;
-          /* Add padding for better readability */
+     padding-bottom: 15px;     /* Add padding for better readability */
     color: white;         /* White text for contrast */
     font-size: 26px;     /* Larger font size (adjust as needed) */
     
