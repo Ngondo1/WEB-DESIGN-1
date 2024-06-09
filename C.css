@@ -25,4 +25,68 @@
     flex-direction: column;    /* Align content vertically */
     justify-content: flex-start; /* Align content to the top */
   }
+
+  .my-services {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 30px;               /* Padding around the section */
+    border-radius: 8px;         /* Rounded corners */
+    margin-bottom: 20px;         /* Space below the section */
+}
+
+.my-services h3 {
+    color: #333;                /* Dark text color for headings */
+    margin-bottom: 15px;        /* Space below headings */
+}
+
+.service-list ul {
+    list-style-type: disc;    /* Use bullet points for the service list */
+    padding-left: 20px;        /* Add indentation to the list */
+}
+
+.workflow-list {
+    background-color: #f0dada; /* Light background color */
+    padding: 30px;               /* Padding around the section */
+    border-radius: 8px;         /* Rounded corners */
+    margin-bottom: 20px;         /* Space below the section */
+}
+.workflow-list ol {
+    list-style-type: decimal; /* Use numbered list for the workflow */
+    padding-left: 20px;        /* Add indentation to the list */
+}
+
+.workflow-list li {
+    margin-bottom: 10px;     /* Add space between workflow steps */
+}
+
+.testimonials {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white; /* White background for testimonials */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow (optional) */
+  }
+  
+  .testimonial p {
+    line-height: 1.6;
+    font-style: italic;
+  }
+  
+  .testimonial .author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+  }
   
