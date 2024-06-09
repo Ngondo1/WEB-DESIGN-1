@@ -1,0 +1,35 @@
+.get-in-touch {
+     /* Light background color (adjust as needed) */
+    padding: 30px;               /* Add padding around the section */
+    border-radius: 8px;         /* Rounded corners (optional) */
+    text-align: center;        /* Center align text content */
+  }
+  
+  .get-in-touch h3 {
+    color: #333;                /* Dark text color for heading */
+    margin-bottom: 15px;        /* Add space below the heading */
+  }
+  
+  .contact-info {
+    display: flex;             /* Use Flexbox for easy alignment */
+    flex-direction: column;    /* Arrange items vertically (for smaller screens) */
+    justify-content: center;  /* Center items horizontally */
+    align-items: center;      /* Center items vertically */
+    gap: 10px;                /* Add spacing between items */
+  }
+  
+  /* Media Query for larger screens (e.g., tablets and desktops) */
+  @media (min-width: 768px) { 
+    .contact-info {
+      flex-direction: row; /* Arrange items horizontally on larger screens */
+    }
+  }
+  
+  .contact-info p {
+    margin: 0;                 /* Remove default paragraph margins */
+  }
+  
+  .contact-info a {
+    color: #007bff;            /* Set the color for the email link (blue in this example) */
+    text-decoration: none;     /* Remove underline from link */
+  }
