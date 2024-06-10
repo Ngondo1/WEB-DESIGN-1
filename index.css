@@ -56,7 +56,7 @@
     padding-top: 100px; 
     padding-bottom: 200px;
     height: auto;
-    min-height: 1050px;         /* Add top padding (adjust as needed) */
+    min-height: 550px;         /* Add top padding (adjust as needed) */
   
     /* Other styles for your header (e.g., text color, etc.) */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -76,7 +76,7 @@
     padding-top: 10px; 
     padding-bottom: 20px;
     height: auto;
-    min-height: 800px;         /* Add top padding (adjust as needed) */
+    min-height: 400px;         /* Add top padding (adjust as needed) */
   
     /* Other styles for your header (e.g., text color, etc.) */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -96,7 +96,7 @@
     padding-top: 100px; 
     padding-bottom: 200px;
     height: auto;
-    min-height: 1000px;         /* Add top padding (adjust as needed) */
+    min-height: 800px;         /* Add top padding (adjust as needed) */
   
     /* Other styles for your header (e.g., text color, etc.) */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
