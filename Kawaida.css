@@ -2,23 +2,17 @@
 
 #time-display {
     /* Styling */
-    font-size: 20px; /* Adjust font size as needed */
-    color: rgb(174, 170, 190);     /* Set text color to white */
+    font-size: 10px; /* Adjust font size as needed */
+    color: rgb(40, 40, 42);     /* Set text color to white */
     background-color: rgba(42, 8, 211, 0.979); /* Semi-transparent black background */
     padding: 5px;   /* Add padding all around */
+    height:auto;
 
     /* Positioning and animation */
     position: relative;    /* Use relative positioning */
     width: 100%;
     text-align: center;  
-    animation: moveLeftToRight 10s linear infinite; 
-    
-      
 
-    /* Animation */
-    animation: moveLeftToRight 10s linear infinite;
-    -webkit-animation: moveLeftToRight 10s linear infinite; /* Safari and older Chrome */
-    -moz-animation: moveLeftToRight 10s linear infinite;    /* Firefox */
 }
 
 @keyframes moveLeftToRight {
